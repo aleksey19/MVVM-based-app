@@ -1,0 +1,49 @@
+PODS:
+  - Action (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - Differentiator (3.0.1)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.1):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - Then (2.1.0)
+
+DEPENDENCIES:
+  - Action
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`)
+  - RxDataSources (~> 3.0)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`)
+  - SwiftyJSON
+  - Then (= 2.1.0)
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :commit: d52c3a8628e86183879f7852e34f0437e7b44836
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: d52c3a8628e86183879f7852e34f0437e7b44836
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+SPEC CHECKSUMS:
+  Action: a9b4a15708233c73a0beee92bb677262ccbd8a96
+  Differentiator: ffe513ce1ea4e7198b89fac94d6e281c673055a9
+  RxCocoa: 36c5f6bf8c6d4ab5512f1d54d5c86a1cc1456e0a
+  RxDataSources: 098b7e62b6316313b14d6bf594e3f4f4f62a238a
+  RxSwift: 3308580de63238d5a2ead3064c32af2cc97ba949
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Then: 8496793c8fcac95482b943909b440724c7d8d82c
+
+PODFILE CHECKSUM: 2a6414db3a070aaa09705ede88cfb097d4cdf5ad
+
+COCOAPODS: 1.3.1
